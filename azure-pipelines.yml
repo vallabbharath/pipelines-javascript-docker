@@ -13,5 +13,5 @@ steps:
   inputs:
     containerRegistry: vallab_cicd_test_connection
     repository: $(imageName)
-    command: build
+    command: buildAndPush
     Dockerfile: app/Dockerfile

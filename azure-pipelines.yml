@@ -15,4 +15,7 @@ steps:
     repository: $(imageName)
     command: buildAndPush
     Dockerfile: app/Dockerfile
-    tags: latest, 105, 107
+    tags: 
+    - latest
+    - 105
+    - 107
